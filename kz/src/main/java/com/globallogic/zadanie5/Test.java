@@ -8,6 +8,17 @@ public class Test {
 		System.out.println(p1.getName());
 		bar(p1);
 		System.out.println(p1.getName());
+
+		/////////////
+		System.out.println();
+
+		Person p2 = new Person("Jack");
+		p2 = new Person("Max");
+		p2.setName("John");
+		System.out.println(p2.getName());
+		p2.setName("Anna");
+		System.out.println(p2.getName());
+
 	}
 	public static void foo(Person p) {
 		p = new Person("Max");
